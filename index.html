@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Accordion</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./script.js">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="subtitle">HELP CENTER</p>
+      <h1>Frequently Asked Questions</h1>
+      <p class="intro">Find quick answers to your questions below.</p>
+    </header>
+
+    <section class="faq-list" aria-label="Frequently asked questions">
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is HTML?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          HTML stands for HyperText Markup Language. It structures
+          the content of a web page.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is CSS?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          CSS stands for Cascading Style Sheets. It controls the
+          colors, layout, fonts and appearance of a website.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is JavaScript?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          JavaScript adds interactivity to websites, such as
+          buttons, menus, animations and dynamic content.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is an FAQ accordion?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          An FAQ accordion is a user interface in which clicking
+          a question shows or hides its answer.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is the DOM?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          DOM stands for Document Object Model. JavaScript uses
+          it to access and modify HTML elements on a web page.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What does classList.toggle() do?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          It adds a CSS class if the class is absent, or removes
+          it if the class is already present.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What is addEventListener()?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          It registers a function that runs when an event occurs,
+          such as a click or keyboard interaction.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is this website mobile-friendly?
+          <span class="icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer" hidden>
+          Yes. Responsive CSS helps the FAQ layout adapt to
+          mobile phones, tablets and desktop screens.
+        </div>
+      </article>
+
+    </section>
+
+    <footer>
+      <p>Still have questions? Keep learning and exploring!</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
